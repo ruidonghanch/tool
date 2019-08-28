@@ -15,7 +15,7 @@ def orthogonalRotate(Y, L1, L2, alpha, normalization = False):
     :param L1: array [m,n], CE output matrix
     :param L2: array [m,n], TL output matrix
     :param alpha: float, weight of L2 vector
-    :param alpha: bool, normalize input data
+    :param normalization: bool, normalize input data
     :return: array [n,n], best orthogonal matrix T
     '''
     L1 = np.array(L1)
